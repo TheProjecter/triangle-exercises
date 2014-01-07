@@ -4,7 +4,6 @@ import java.util.Scanner;
  * Created by lbeier on 1/7/14.
  */
 public class Main {
-
     public static void main(String[] args) {
         int myint;
         int i;
@@ -15,7 +14,7 @@ public class Main {
         myint = keyboard.nextInt();
 
         for(i = 0; i < myint; i++) {
-            line += "*";
+            line += "*\n";
         }
 
         System.out.println(line);
